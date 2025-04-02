@@ -10,10 +10,9 @@ python -m venv $VENV_NAME
 source $VENV_NAME/bin/activate
 
 # Instala as dependências necessárias
-pip install requests beautifulsoup4 dirsearch-py
+pip install requests beautifulsoup4
 
 # Exibe uma mensagem de confirmação
 echo "Ambiente virtual '$VENV_NAME' criado e ativado."
 echo "Dependências instaladas."
-echo "Você pode agora executar o script 'scan_web.py'."
-
+echo "Você pode agora executar seus scripts Python dentro deste ambiente virtual."
